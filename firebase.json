@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "bordacorzo",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
