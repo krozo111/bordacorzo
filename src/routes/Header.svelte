@@ -7,7 +7,7 @@
 <header>
 	<div class="corner">
 		<a href="https://latinplace.com.au">
-			<img src={logo} alt="SvelteKit" />
+			More sites
 		</a>
 	</div>
 
@@ -17,10 +17,10 @@
 		</svg>
 		<ul>
 			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-				<a href="/">Home</a>
+				<a href="/">Inicio</a>
 			</li>
 			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-				<a href="/about">About</a>
+				<a href="/about">Acerca de...</a>
 			</li>
 			
 		</ul>

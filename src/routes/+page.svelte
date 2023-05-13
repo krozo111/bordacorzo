@@ -5,7 +5,7 @@
 
 <svelte:head>
   <title>Inicio</title>
-  <meta name="description" content="Svelte demo app" />
+  <meta name="description" content="Bordacorzo" />
 </svelte:head>
 
 <section>
@@ -20,7 +20,7 @@
     to your new<br />Bordacorzo site
   </h1>
 
-  <h2>coming soon... <strong>desarrollado por [dev-studio]</strong></h2>
+  <h2>coming soon... <strong>desarrollado por [dev-studio] 2023..</strong></h2>
 </section>
 
 <style>
