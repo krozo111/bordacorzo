@@ -1,7 +1,7 @@
 <script>
   import "../app.css";
   import Header from "../components/Header.svelte";
-  import Hero from "../components/Hero.svelte";
+ 
 </script>
 
 <svelte:head>
@@ -9,7 +9,7 @@
   <meta name="description" content="Bordacorzo" />
 </svelte:head>
 
-<main class="mx-12 my-6">
+<main class="">
   <Header />
   <slot />
 </main>
