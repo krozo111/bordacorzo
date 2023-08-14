@@ -1,6 +1,7 @@
 <script>
-    import Header from "./Header.svelte";
+import Hero from "../components/Hero.svelte";
 </script>
 
-
-<Header />
+<main class="">
+    <Hero />
+</main>
