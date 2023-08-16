@@ -1,4 +1,5 @@
 <script>
+  import { store2 } from "$lib/stores/store";
 </script>
 
 <svelte:head>
@@ -6,5 +7,4 @@
   <meta name="description" content="About this app" />
 </svelte:head>
 
-
-<main class="">hola</main>
+<main class="">hola soy el store {$store2}</main>
