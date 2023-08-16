@@ -1,7 +1,7 @@
 <script>
   import "../app.css";
   import Header from "../components/Header.svelte";
- 
+  import Container from "../components/container.svelte";
 </script>
 
 <svelte:head>
@@ -11,7 +11,9 @@
 
 <main class="">
   <Header />
-  <slot />
+  <Container>
+    <slot />
+  </Container>
 </main>
 
 <style>
