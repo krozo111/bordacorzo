@@ -11,7 +11,7 @@
       <ul class="flex gap-5">
         <li><a href="/">Home</a></li>
         <li><a href="/about">Acerca</a></li>
-        <li><a href="/">Contacto</a></li>
+        <li><a href="/contact">Contacto</a></li>
       </ul>
     </nav>
   </header>

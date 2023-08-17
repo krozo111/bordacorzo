@@ -2,6 +2,7 @@
   import "../app.css";
   import Header from "../components/Header.svelte";
   import Container from "../components/container.svelte";
+  import Footer from "../components/footer.svelte";
 </script>
 
 <svelte:head>
@@ -13,6 +14,7 @@
   <Header />
   <Container>
     <slot />
+    <Footer />
   </Container>
 </main>
 

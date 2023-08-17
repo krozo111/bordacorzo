@@ -8,4 +8,5 @@
 </svelte:head>
 <main class="">
   <Hero />
+  
 </main>
