@@ -14,8 +14,8 @@
   <Header />
   <Container>
     <slot />
-    <Footer />
   </Container>
+  <Footer />
 </main>
 
 <style>
