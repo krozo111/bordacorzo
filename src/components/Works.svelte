@@ -1,5 +1,5 @@
 <script>
-  import { works } from "../data";
+  import { works } from "../lib/images/works";
 </script>
 
 <section class="dark:text-gray-400">
@@ -15,7 +15,7 @@
     </div>
     <div class="sm:flex sm:flex-wrap -m-4">
       {#each works as work}
-        <a class="sm:w-1/2 w-100 p-4">
+        <div class="w-1/3 p-4">
           <div class="flex relative">
             <img
               alt="Trabajos"
@@ -26,14 +26,14 @@
               class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100"
             >
               <h2
-                class="tracking-widest text-sm title-font font-medium text-green-400 mb-1"
+                class="tracking-widest text-sm title-font font-medium text-green-700 mb-1"
               >
                 {work.title}
               </h2>
               <p class="leading-relaxed">{work.description}</p>
             </div>
           </div>
-        </a>
+        </div>
       {/each}
     </div>
   </div>
