@@ -56,7 +56,7 @@
       Nuestros Clientes
     </h1>
   </div>
-  <div class="mt-12 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6">
+  <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6">
     {#each clients as client}
       <div class="p-4 transition duration-400 hover:scale-110">
         <img
