@@ -36,18 +36,21 @@
         </span>
         <div class="text-center">
           <p class="text-lg dark:text-gray-500">Localización</p>
-          <p class="text-xl">Cra 4a Este 29 - 41 San Mateo,</p>
-          <p class="text-xl">Soacha, Cundinamarca.</p>
+          <a
+            href="https://goo.gl/maps/zRg4dHvZq5G7FM98A"
+            class="text-xl hover:text-red-500"
+            target="_blank"
+            >Cra 4a Este 29 - 41 San Mateo, <br /> Soacha, Cundinamarca</a
+          >
         </div>
       </div>
     </div>
-    
-      <iframe
-        src={mapInfo}
-        title="bordacorzo"
-        class="rounded-xl mx-auto md:grow bg-white"
-        loading="lazy"
-      />
 
+    <iframe
+      src={mapInfo}
+      title="bordacorzo"
+      class="rounded-xl mx-auto md:grow bg-white"
+      loading="lazy"
+    />
   </div>
 </section>
