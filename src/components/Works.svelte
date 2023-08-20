@@ -5,7 +5,7 @@
 <section class="dark:text-gray-400">
   <div class="px-5 py-10 mx-auto text-center lg:px-40">
     <div class="mb-10">
-      <h1 class="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+      <h1 class="sm:text-4xl text-3xl font-medium title-font mb-4 dark:text-white">
         Nuestro Trabajo
       </h1>
       <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
@@ -22,7 +22,7 @@
               src={work.image}
             />
             <div
-              class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100"
+              class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 dark:bg-gray-900 bg-slate-300 opacity-0 hover:opacity-100"
             >
               <h2
                 class="tracking-widest text-sm title-font font-medium text-green-700 mb-1"

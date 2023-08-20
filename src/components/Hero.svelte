@@ -52,7 +52,7 @@
   </div>
   
   <div class="pt-10 mx-auto text-center lg:px-40">
-    <h1 class="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+    <h1 class="sm:text-4xl text-3xl font-medium title-font mb-4 dark:text-white">
       Nuestros Clientes
     </h1>
   </div>
