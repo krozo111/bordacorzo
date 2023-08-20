@@ -11,9 +11,9 @@
       <img class="mx-auto w-96 rounded-full" src={maquina} alt="maquina" />
       <div class="md:block">
         <h1
-          class="text-gray-900 dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl m-6"
+          class="text-black dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl m-6"
         >
-          Programación y <span class="dark:text-red-700">bordados.</span>
+          Programación y <span class="text-red-600">bordados.</span>
         </h1>
         <p
           class="text-lg mt-8 text-gray-700 dark:text-gray-300 max-w-xl mx-auto"
@@ -44,11 +44,17 @@
       </div>
       <div class="text-left">
         <h6 class="text-lg font-semibold text-gray-700 dark:text-white">
-          Puntuales
+          Puntualidad
         </h6>
-        <p class="mt-2 text-gray-500">Some text here</p>
+        <p class="mt-2 text-gray-500">Calidad y cumplimiento</p>
       </div>
     </div>
+  </div>
+  
+  <div class="pt-10 mx-auto text-center lg:px-40">
+    <h1 class="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+      Nuestros Clientes
+    </h1>
   </div>
   <div class="mt-12 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6">
     {#each clients as client}
@@ -62,4 +68,5 @@
       </div>
     {/each}
   </div>
+  <div class="mt-8 border-y border-gray-100 dark:border-gray-800"></div>
 </section>

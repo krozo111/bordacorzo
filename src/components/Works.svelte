@@ -3,19 +3,18 @@
 </script>
 
 <section class="dark:text-gray-400">
-  <div class="container px-5 py-10 mx-auto text-center lg:px-40">
-    <div class="flex flex-col w-full mb-20">
-      <p>Icon</p>
+  <div class="px-5 py-10 mx-auto text-center lg:px-40">
+    <div class="mb-10">
       <h1 class="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
         Nuestro Trabajo
       </h1>
       <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-        Info about the job im doing
+        Los mejores bordados de la ciduad.
       </p>
     </div>
-    <div class="sm:flex sm:flex-wrap -m-4">
+    <div class="flex flex-wrap justify-around">
       {#each works as work}
-        <div class="w-1/3 p-4">
+        <div class="p-4">
           <div class="flex relative">
             <img
               alt="Trabajos"

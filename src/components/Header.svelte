@@ -9,9 +9,7 @@
     <img class="h-12" src={logomain} alt="logoMain">
     <nav class="">
       <ul class="flex gap-5">
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">Acerca</a></li>
-        <li><a href="/contact">Contacto</a></li>
+        <li><a class="hover:text-red-500 font-medium" href="#contact">Contáctanos</a></li>
       </ul>
     </nav>
   </header>

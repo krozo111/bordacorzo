@@ -1,6 +1,9 @@
 <script>
   import Hero from "../components/Hero.svelte";
-  import Works from "../components/Works.svelte"
+  import Works from "../components/Works.svelte";
+  import Contact from "../components/contact.svelte";
+  
+
 </script>
 
 <svelte:head>
@@ -10,4 +13,5 @@
 <main class="">
   <Hero />
   <Works />
+  <Contact />
 </main>
