@@ -2,13 +2,13 @@
   import maquina from "$lib/images/bg3.webp";
 
   import { clients } from "$lib/images/clients/clients.js";
-  import client4 from "$lib/images/4.jpeg";
+  
 </script>
 
 <section class="relative pt-10 ml-auto">
-  <div class="lg:w-2/3 text-center mx-auto">
+  <div class=" text-center mx-auto">
     <div class="md:flex">
-      <img class="mx-auto w-96 rounded-full" src={maquina} alt="maquina" />
+      <img class="mx-auto w-96 rounded-lg hidden md:block" src={maquina} alt="maquina" />
       <div class="md:block">
         <h1
           class="text-black dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl m-6"
