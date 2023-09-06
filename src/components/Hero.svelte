@@ -2,28 +2,29 @@
   import maquina from "$lib/images/bg3.webp";
 
   import { clients } from "$lib/images/clients/clients.js";
-  
 </script>
 
 <section class="relative pt-10 ml-auto">
   <div class=" text-center mx-auto">
     <div class="md:flex">
-      <img class="mx-auto w-96 rounded-lg hidden md:block" src={maquina} alt="maquina" />
+      <img
+        class="mx-auto w-96 rounded-xl hidden md:block"
+        src={maquina}
+        alt="maquina"
+      />
       <div class="md:block">
         <h1
-          class="text-black dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl m-6"
+          class="text-black dark:text-white font-bold text-4xl md:text-5xl xl:text-6xl"
         >
-          Programación y <span class="text-red-600">bordados.</span>
+          Programación y bordados en <br /> <span class="text-red-600">San Mateo, Soacha</span>
         </h1>
         <p
-          class="text-lg mt-8 text-gray-700 dark:text-gray-300 max-w-xl mx-auto"
+          class="text-xl mt-8 text-gray-700 dark:text-gray-300 max-w-xl mx-auto"
         >
-          Brindamos una calidad excepcional en servicios de digitalización de
-          bordados. Nos enorgullecemos de ofrecer un alto nivel de
-          profesionalismo, garantizando un cumplimiento riguroso de las fechas
-          de entrega. Siempre nos esforzamos por adaptarnos a las necesidades
-          individuales de nuestros clientes, priorizando su satisfacción en todo
-          momento.
+          Brindamos una calidad excepcional en servicios de digitalización y
+          bordados de tus ideas o logos. Bordamos tus prendas con los más altos
+          estándares de calidad. <br /> <br />Estamos localizados en el barrio San Mateo
+          en el municipio de Soacha, Cundinamarca.
         </p>
       </div>
     </div>
@@ -32,27 +33,29 @@
     >
       <div class="text-left">
         <h6 class="text-lg font-semibold text-gray-700 dark:text-white">
-          Precios competitivos.
+          Bordados de Calidad.
         </h6>
-        <p class="mt-2 text-gray-500">Some text here</p>
+        <p class="mt-2 text-gray-500">Cumplimiento en la entrega.</p>
       </div>
       <div class="text-left">
         <h6 class="text-lg font-semibold text-gray-700 dark:text-white">
-          La mejor calidad de la ciudad
+          Bordamos tus ideas.
         </h6>
-        <p class="mt-2 text-gray-500">Some text here</p>
+        <p class="mt-2 text-gray-500">Bordados corporativos</p>
       </div>
       <div class="text-left">
         <h6 class="text-lg font-semibold text-gray-700 dark:text-white">
-          Puntualidad
+          Programacion de bordados
         </h6>
-        <p class="mt-2 text-gray-500">Calidad y cumplimiento</p>
+        <p class="mt-2 text-gray-500">Diseñamos tus ideas</p>
       </div>
     </div>
   </div>
-  
+
   <div class="pt-10 mx-auto text-center lg:px-40">
-    <h1 class="sm:text-4xl text-3xl font-medium title-font mb-4 dark:text-white">
+    <h1
+      class="sm:text-4xl text-3xl font-medium title-font mb-4 dark:text-white"
+    >
       Nuestros Clientes
     </h1>
   </div>
@@ -68,5 +71,5 @@
       </div>
     {/each}
   </div>
-  <div class="mt-8 border-y border-gray-100 dark:border-gray-800"></div>
+  <div class="mt-8 border-y border-gray-100 dark:border-gray-800" />
 </section>

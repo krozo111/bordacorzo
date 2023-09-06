@@ -11,7 +11,7 @@
         Nuestro Trabajo
       </h1>
       <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-        Los mejores bordados de la ciduad.
+        Los mejores bordados en San Mateo.
       </p>
     </div>
     <div class="flex flex-wrap justify-around bg-white rounded-3xl">

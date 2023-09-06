@@ -15,7 +15,7 @@
         </span>
         <div class="text-center">
           <p class="text-lg dark:text-gray-500">Teléfono</p>
-          <p class="text-xl">1 7078649</p>
+          <p class="text-xl select-none ">1 7078649</p>
         </div>
       </div>
       <div class="mb-10 flex justify-center">
@@ -27,7 +27,7 @@
         </span>
         <div class="text-center">
           <p class="text-lg dark:text-gray-500">Email</p>
-          <p class="text-xl">bordacorzo@gmail.com</p>
+          <p class="text-xl select-none">bordacorzo@gmail.com</p>
         </div>
       </div>
       <div class="mb-10 flex justify-center">
